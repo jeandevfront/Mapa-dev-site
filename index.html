@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <title>Projetinho</title>
+</head>
+<body>
+    <!--Dar bons nomes para as divs-->
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Jean Ferreira</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.png" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/social-media.png" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                  <h3 class="sub-titulo">Sobre</h3>
+
+                  <div class="descricao">
+                    <p> Ola! Meu nome é Jean, seja bem-vindo(a)!</p>
+
+                    <p>
+                        Sou um estudante da programação, apaixonado por dinheiro desde que me conheço por gente.
+                       Sempre tive o sonho de trabalhar confortavelmente e viver bem. Atualmente comecei a 
+                       colocar em prática o estudo do <span>HTML, CSS e JavaScript</span>.Gosto muito de carros e meus principais hobbies são: jogar, a mecânica e ler (muito).
+                    </p>
+
+                  </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/jean-ferreira-dev/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/JeanFerreirab" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
